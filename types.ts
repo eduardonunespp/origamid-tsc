@@ -94,7 +94,7 @@
     }
     if(entrada){
     entrada.addEventListener('keyup', totalMudou)
-    }
+    } 
 
 
 
