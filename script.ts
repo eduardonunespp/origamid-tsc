@@ -1,9 +1,9 @@
 
-function somar(a: number, b :number){
+function somarr(a: number, b :number){
     return a + b;
 }
 
-console.log(somar(2,2))
+console.log(somarr(2,2))
 
 
 

@@ -1,5 +1,5 @@
 "use strict";
-function somar(a, b) {
+function somarr(a, b) {
     return a + b;
 }
-console.log(somar(2, 2));
+console.log(somarr(2, 2));

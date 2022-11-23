@@ -3,5 +3,6 @@
    
     "target": "ESNext", 
     "strict":  true,
+    "strictNullChecks": true
   }
 }
