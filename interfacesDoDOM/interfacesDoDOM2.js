@@ -8,3 +8,6 @@ links.forEach((link) => {
         console.log(typeof link);
     }
 });
+const arraylinks = Array.from(links);
+const archolinks = arraylinks.filter((filtro) => filtro instanceof HTMLAnchorElement);
+console.log(archolinks);
