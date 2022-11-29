@@ -1,3 +1,4 @@
+"use strict";
 function typeGuard(value) {
     if (typeof value === 'number') {
         return value.toFixed;
@@ -58,14 +59,14 @@ fetchProduto();
 //         }
 //     }
 // }
-async function puxaAPI() {
+async function puxarAPI() {
     const response = await fetch('https://api.origamid.dev/json/cursos.json');
     const json = await response.json();
     console.log(json);
-    handleproduct(json);
+    handleproductt(json);
 }
-puxaAPI();
-function isProduto(value) {
+puxarAPI();
+function isProdutoo(value) {
     if (value && typeof value === 'object' && 'nome' in value && 'horas' in value && 'tags' in value) {
         return true;
     }
@@ -73,8 +74,8 @@ function isProduto(value) {
         return false;
     }
 }
-function handleproduct(date) {
-    if (isProduto(date)) {
+function handleproductt(date) {
+    if (isProdutoo(date)) {
         document.body.innerHTML = `
                     <h3>${date.nome}</h3>
                     <p>${date.horas}</p>
@@ -83,4 +84,3 @@ function handleproduct(date) {
                 `;
     }
 }
-export {};

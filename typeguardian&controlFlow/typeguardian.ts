@@ -1,4 +1,4 @@
-import { getJSDocReturnType } from "../../../../../../node_modules/typescript/lib/typescript"
+
 
 function typeGuard(value: any){
     if(typeof value === 'number'){
@@ -77,15 +77,15 @@ fetchProduto()
         //     }
         // }
 
-        async function puxaAPI(){
+        async function puxarAPI(){
             const response = await fetch('https://api.origamid.dev/json/cursos.json')
             const json = await response.json()
             console.log(json)
             
-            handleproduct(json)
+            handleproductt(json)
         }
 
-        puxaAPI()
+        puxarAPI()
 
         interface origcomp {
             nome: string,
@@ -93,7 +93,7 @@ fetchProduto()
             tags: string[]
         }
 
-        function isProduto(value: unknown): value is origcomp{
+        function isProdutoo(value: unknown): value is origcomp{
             if(value && typeof value === 'object' && 'nome' in value && 'horas' in value && 'tags' in value){
                 return true
             }
@@ -102,8 +102,8 @@ fetchProduto()
             }
         }
 
-        function handleproduct(date: unknown){
-            if(isProduto(date)){
+        function handleproductt(date: unknown){
+            if(isProdutoo(date)){
                 document.body.innerHTML = `
                     <h3>${date.nome}</h3>
                     <p>${date.horas}</p>

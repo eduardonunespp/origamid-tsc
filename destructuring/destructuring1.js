@@ -1,6 +1,6 @@
 "use strict";
 const { body } = document;
-function handleData({ nome, preco }) {
+function handleDataa({ nome, preco }) {
     nome.includes('book');
     preco.toFixed;
 }
