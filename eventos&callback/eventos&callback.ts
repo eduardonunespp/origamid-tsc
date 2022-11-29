@@ -41,21 +41,27 @@
 
 // botao?.addEventListener('click', handleClick)
 
-const botao = document.querySelector('button')
+ const botao = document.querySelector<HTMLButtonElement>('button')!
 
 
-    function handleClick(event: MouseEvent){
-        const elemento = event.currentTarget;
-        if(elemento instanceof HTMLElement){
-            console.log(elemento.innerText)
-        }
+//     function handleClick(event: MouseEvent){
+//         const elemento = event.currentTarget;
+//         if(elemento instanceof HTMLElement){
+//             console.log(elemento.innerText)
+//         }
     
-    }
+//     }
 
 
-botao?.addEventListener('click', handleClick)
+// botao?.addEventListener('click', handleClick)
 
 
 //atividade
 
- 
+    function handleTeste(target: PointerEvent){
+        console.dir(target.target)
+    }
+
+    
+
+botao.addEventListener('pointerdown', handleTeste)

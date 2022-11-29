@@ -26,11 +26,15 @@
 //     }
 // botao?.addEventListener('click', handleClick)
 const botao = document.querySelector('button');
-function handleClick(event) {
-    const elemento = event.currentTarget;
-    if (elemento instanceof HTMLElement) {
-        console.log(elemento.innerText);
-    }
-}
-botao?.addEventListener('click', handleClick);
+//     function handleClick(event: MouseEvent){
+//         const elemento = event.currentTarget;
+//         if(elemento instanceof HTMLElement){
+//             console.log(elemento.innerText)
+//         }
+//     }
+// botao?.addEventListener('click', handleClick)
 //atividade
+function handleTeste(target) {
+    console.dir(target.target);
+}
+botao.addEventListener('pointerdown', handleTeste);
