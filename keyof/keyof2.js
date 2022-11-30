@@ -12,7 +12,7 @@ function checkInterface(obj, key) {
         return false;
     }
 }
-async function handleData() {
+async function handleDataaa() {
     const jogo = await fetchData("/jogo.json");
     if (checkInterface(jogo, 'desenvolvedora')) {
         console.log(jogo.desenvolvedora.toLowerCase());
@@ -24,6 +24,6 @@ async function handleData() {
         console.log(livro.autor);
     console.log(livro.paginas);
 }
-handleData();
+handleDataaa();
 let testei;
 testei = 'age';

@@ -35,5 +35,13 @@ function mostrarTitulo(obj) {
 }
 mostrarTitulo({
     titulo: 'Aee',
-    preco: 'swjjj'
+    preco: 30
 });
+function doiei(data) {
+    return data.nome;
+}
+const jsk = {
+    nome: 'Eduardo',
+    idade: 18
+};
+console.log(doiei(jsk));

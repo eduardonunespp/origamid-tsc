@@ -30,7 +30,7 @@ function checkInterface<Interface>(obj: unknown, key: keyof Interface):obj is In
     }
 }
 
-async function handleData(){
+async function handleDataaa(){
     const jogo = await fetchData<Jogo>("/jogo.json")
     if(checkInterface<Jogo>(jogo, 'desenvolvedora')){
         console.log(jogo.desenvolvedora.toLowerCase())
@@ -43,7 +43,7 @@ async function handleData(){
     console.log(livro.paginas)
 }
 
-handleData()
+handleDataaa()
 
 
 interface testein {

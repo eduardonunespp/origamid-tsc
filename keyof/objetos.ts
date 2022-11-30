@@ -55,18 +55,33 @@ interface ObjetoLiteral {
     [key: string]: unknown
 }
 
-type ObjetoLiteral2 = Record<string, string>
+type ObjetoLiteral2 = Record<string, unknown>
 
 
 function mostrarTitulo(obj: ObjetoLiteral2){
     if('titulo' in obj){
         console.log(obj.titulo)
     }
+    
 }
 
-
+ 
 
 mostrarTitulo({
     titulo: 'Aee',
-    preco: 'swjjj'
+    preco: 30
 })
+
+
+type Obje = Record<string, unknown>
+
+function doiei(data: Obje){
+    return data.nome
+}
+
+const jsk = {
+    nome: 'Eduardo',
+    idade: 18
+}
+
+console.log(doiei(jsk))
