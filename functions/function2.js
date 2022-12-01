@@ -29,3 +29,4 @@ function aredondaNumber(num) {
     }
 }
 console.log(aredondaNumber(10.2));
+//# sourceMappingURL=function2.js.map

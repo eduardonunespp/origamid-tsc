@@ -29,3 +29,4 @@ async function fetchCursos() {
     mostrarCursos(data);
 }
 fetchCursos();
+//# sourceMappingURL=arrays2.js.map

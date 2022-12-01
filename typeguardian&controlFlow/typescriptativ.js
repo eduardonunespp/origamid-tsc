@@ -37,3 +37,4 @@ function handleproduct(date) {
     //     console.log('Erro')
     // }
 }
+//# sourceMappingURL=typescriptativ.js.map

@@ -66,3 +66,4 @@ formas.forEach(forma => {
         console.log(forma.getPerimetroCirculo);
     }
 });
+//# sourceMappingURL=classes.js.map

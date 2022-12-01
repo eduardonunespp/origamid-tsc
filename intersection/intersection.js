@@ -10,3 +10,4 @@ function nsinsu(dados) {
 }
 window.userId = 200;
 window.$;
+//# sourceMappingURL=intersection.js.map

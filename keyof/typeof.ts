@@ -48,4 +48,24 @@ console.log(selecionar('video')?.volume)
 
 
 
+interface Teste{
+    teste1: string,
+    teste2: string,
+    teste3: string, 
+}
+
+
+let key1: keyof Teste
+
+key1 = 'teste3'
+
+const ref = document.querySelector('a')
+
+    if(ref instanceof HTMLAnchorElement){
+        ref.href
+    }
+
+
+
+
 

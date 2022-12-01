@@ -17,3 +17,4 @@ function isString(value) {
     }
 }
 console.log(isString('assik'));
+//# sourceMappingURL=function1.js.map

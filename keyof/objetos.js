@@ -45,3 +45,17 @@ const jsk = {
     idade: 18
 };
 console.log(doiei(jsk));
+function returndado(dado) {
+    return dado;
+}
+console.log(returndado('DadoNsk').trim().toLowerCase());
+function constructorODS(obj) {
+    return obj.age;
+}
+const objt = {
+    nome: 'Eduardo',
+    age: 18,
+    alt: 1.80,
+};
+constructorODS(objt);
+//# sourceMappingURL=objetos.js.map

@@ -40,3 +40,4 @@ function handleInput({ target }) {
     }
 }
 form?.addEventListener('keyup', handleInput);
+//# sourceMappingURL=script.js.map

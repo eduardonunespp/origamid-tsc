@@ -19,3 +19,4 @@ async function fetchProduct() {
     showProduct(data);
 }
 fetchProduct();
+//# sourceMappingURL=types&interfaceativ.js.map

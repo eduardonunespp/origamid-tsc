@@ -33,3 +33,4 @@ function pintarCategoria(categoria) {
     }
 }
 pintarCategoria('design');
+//# sourceMappingURL=types&interface.js.map

@@ -17,3 +17,10 @@ function selecionar(seletor) {
 }
 console.log(selecionar('a')?.href);
 console.log(selecionar('video')?.volume);
+let key1;
+key1 = 'teste3';
+const ref = document.querySelector('a');
+if (ref instanceof HTMLAnchorElement) {
+    ref.href;
+}
+//# sourceMappingURL=typeof.js.map

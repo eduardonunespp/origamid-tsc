@@ -67,3 +67,4 @@ function totalMudou() {
 if (entrada) {
     entrada.addEventListener('keyup', totalMudou);
 }
+//# sourceMappingURL=types.js.map

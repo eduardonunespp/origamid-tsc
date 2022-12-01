@@ -27,3 +27,4 @@ arraylink.forEach((link) => {
         ativarElement(link);
     }
 });
+//# sourceMappingURL=interfacesDoDOMexe.js.map

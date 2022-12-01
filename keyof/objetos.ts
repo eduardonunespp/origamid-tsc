@@ -85,3 +85,41 @@ const jsk = {
 }
 
 console.log(doiei(jsk))
+
+
+
+function returndado<T>(dado: T){
+    return dado;
+}
+
+
+
+
+console.log(returndado('DadoNsk').trim().toLowerCase())
+
+
+type ODS = Record<string, unknown>
+
+
+function constructorODS(obj: ODS){
+    return obj.age
+} 
+
+
+
+const objt = {
+    nome: 'Eduardo',
+    age: 18,
+    alt: 1.80,
+}
+
+
+constructorODS(objt)
+
+
+
+    
+
+
+
+

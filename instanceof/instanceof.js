@@ -45,3 +45,4 @@ const automovel = {
     nome: "Volvo"
 };
 console.log(automovel.nome);
+//# sourceMappingURL=instanceof.js.map

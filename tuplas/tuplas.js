@@ -40,3 +40,4 @@ function typesArray(vendas) {
     }, 0);
     document.body.innerHTML += `<p>Total: ${total2}</p>`;
 }
+//# sourceMappingURL=tuplas.js.map
