@@ -54,11 +54,11 @@ async function getData(url) {
     const response = await fetch(url);
     return await response.json();
 }
-async function handleData() {
+async function handleDataa() {
     const notebook = await getData('https://api.origamid.dev/json/notebook.json');
     console.log(notebook.nome);
 }
-handleData();
+handleDataa();
 function returnTypeofDado(dados) {
     const conteudo = {
         tipo: typeof dados,

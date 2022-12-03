@@ -100,13 +100,13 @@ interface noteDados {
     preco: number,
 }
 
-async function handleData(){
+async function handleDataa(){
     const notebook = await getData<noteDados>('https://api.origamid.dev/json/notebook.json')
 
     console.log(notebook.nome)
 }
 
-handleData()
+handleDataa()
 
 function returnTypeofDado<type>(dados: type){
     const conteudo = {
