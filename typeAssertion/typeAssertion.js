@@ -1,13 +1,13 @@
 "use strict";
 const videoassertion = document.querySelector('#video');
 videoassertion.volume;
-async function fetchProduto() {
+async function fetchProdutoo() {
     const response = await fetch('https://api.origamid.dev/json/notebook.json');
     return response.json(); //as Promise<Product>
 }
 async function handleProduto() {
     const produto = await fetchProduto();
-    produto.nome;
+    //(produto as Productt).nome
     //console.log(produto.nome)
 }
 handleProduto();
@@ -20,3 +20,4 @@ const video2 = document.querySelector('.player');
 const video3 = document.querySelector('.player');
 const video4 = document.querySelector('.player');
 video4.volume;
+//# sourceMappingURL=typeAssertion.js.map

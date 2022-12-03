@@ -67,3 +67,4 @@ function returnTypeofDado(dados) {
     return conteudo;
 }
 console.log(returnTypeofDado(30).content);
+//# sourceMappingURL=generic.js.map

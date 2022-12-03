@@ -38,3 +38,4 @@ function handleTeste(target) {
     console.dir(target.target);
 }
 botao.addEventListener('pointerdown', handleTeste);
+//# sourceMappingURL=eventos&callback.js.map

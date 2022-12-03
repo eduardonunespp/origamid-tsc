@@ -4,12 +4,12 @@
 
  videoassertion.volume 
 
-    interface Product {
+    interface Productt {
         nome: string,
         preco: number,
     }
 
- async function fetchProduto(){
+ async function fetchProdutoo(){
     const response = await fetch('https://api.origamid.dev/json/notebook.json')
     return response.json(); //as Promise<Product>
 
@@ -17,11 +17,10 @@
 
  async function handleProduto() {
     const produto = await fetchProduto();
-    (produto as Product).nome
+    //(produto as Productt).nome
    //console.log(produto.nome)
     
  }
-
 
 
  handleProduto()

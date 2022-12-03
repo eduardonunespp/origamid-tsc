@@ -12,3 +12,4 @@ function isNumber(value) {
 console.log(isNumber("900"));
 const button = document.querySelector('button');
 button?.click();
+//# sourceMappingURL=uniontypes.js.map
