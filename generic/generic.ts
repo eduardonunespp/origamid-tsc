@@ -79,12 +79,12 @@ if(linksa){
 }
 
 
-function $<Tipo extends Element>(selector: string): Tipo | null{
+function $$<Tipo extends Element>(selector: string): Tipo | null{
     return document.querySelector(selector);
 }
 
 
-const linkss = $<HTMLAnchorElement>('a')?.href;
+const linkss = $$<HTMLAnchorElement>('a')?.href;
 
 const linkteste = document.querySelector<HTMLAnchorElement>(".link")
 

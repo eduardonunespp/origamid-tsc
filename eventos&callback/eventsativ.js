@@ -21,4 +21,3 @@ function handleClickEvent(event) {
     //nav?.classList.toggle('active')
 }
 btn?.addEventListener('pointerdown', handleClickEvent);
-//# sourceMappingURL=eventsativ.js.map

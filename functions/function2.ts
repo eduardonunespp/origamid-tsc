@@ -30,15 +30,15 @@ function calcular(forma: Quadrado){
     console.log(normalizarText(['wie', 'Q suue']))
 
 
-    function $$(seletor: 'video'): HTMLVideoElement
-    function $$(seletor: 'a'): HTMLAnchorElement
-    function $$( seletor: string): Element
-    function $$(seletor: string): Element | null{
+    function elemento1(seletor: 'video'): HTMLVideoElement
+    function elemento1(seletor: 'a'): HTMLAnchorElement
+    function elemento1( seletor: string): Element
+    function elemento1(seletor: string): Element | null{
         return document.querySelector(seletor)
     }
 
-    $$('a');
-    $$('video');
+    elemento1('a');
+    elemento1('video');
 
     //Atividade 
 

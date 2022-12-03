@@ -12,4 +12,3 @@ export default function returnfunctions() {
     }
     somee(10, 20);
 }
-//# sourceMappingURL=module.js.map

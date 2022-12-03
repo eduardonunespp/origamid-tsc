@@ -1,7 +1,7 @@
 
 const {body}: {body: HTMLElement} = document
 
-function handleDataa({nome, preco}: {nome: string, preco: number}){
+function handleDate({nome, preco}: {nome: string, preco: number}){
     nome.includes('book')
     preco.toFixed
 }

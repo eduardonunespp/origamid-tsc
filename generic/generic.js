@@ -44,10 +44,10 @@ const linksa = document.querySelector('a');
 if (linksa) {
     console.log(extractText(linksa).el.href);
 }
-function $(selector) {
+function $$(selector) {
     return document.querySelector(selector);
 }
-const linkss = $('a')?.href;
+const linkss = $$('a')?.href;
 const linkteste = document.querySelector(".link");
 linkteste?.href;
 async function getData(url) {
@@ -67,4 +67,3 @@ function returnTypeofDado(dados) {
     return conteudo;
 }
 console.log(returnTypeofDado(30).content);
-//# sourceMappingURL=generic.js.map

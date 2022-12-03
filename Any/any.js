@@ -23,4 +23,3 @@ function retornaAee(aeeie) {
     return aeeie.frase2;
 }
 console.log(retornaAee(aee));
-//# sourceMappingURL=any.js.map

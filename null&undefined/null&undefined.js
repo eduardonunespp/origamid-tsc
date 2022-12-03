@@ -23,4 +23,3 @@ if (jogo.nome) {
     jogo.nome.toLocaleLowerCase();
 }
 livro.nome?.toLocaleLowerCase();
-//# sourceMappingURL=null&undefined.js.map

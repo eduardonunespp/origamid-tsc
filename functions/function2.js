@@ -15,11 +15,11 @@ function normalizarText(valor) {
 }
 console.log(normalizarText('Paffo ca'));
 console.log(normalizarText(['wie', 'Q suue']));
-function $$(seletor) {
+function elemento1(seletor) {
     return document.querySelector(seletor);
 }
-$$('a');
-$$('video');
+elemento1('a');
+elemento1('video');
 function aredondaNumber(num) {
     if (typeof num === 'number') {
         return Math.ceil(num);
@@ -29,4 +29,3 @@ function aredondaNumber(num) {
     }
 }
 console.log(aredondaNumber(10.2));
-//# sourceMappingURL=function2.js.map

@@ -1,6 +1,6 @@
 "use strict";
 const { body } = document;
-function handleDataa({ nome, preco }) {
+function handleDate({ nome, preco }) {
     nome.includes('book');
     preco.toFixed;
 }
@@ -20,4 +20,3 @@ function comparar(tipo, ...numeros) {
     }
 }
 comparar('menor', 1, 2, 3, 4, 56, 8, 9, 78, 6);
-//# sourceMappingURL=destructuring1.js.map

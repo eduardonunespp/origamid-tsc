@@ -11,4 +11,3 @@ function toNumber(value) {
     }
 }
 console.log(toNumber("100"));
-//# sourceMappingURL=uniontypes2.js.map

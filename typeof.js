@@ -14,4 +14,3 @@ const frase1 = new String("Front End");
 const frase2 = String("Front End");
 const frase3 = "Front End";
 console.log(typeof frase3.toLocaleLowerCase());
-//# sourceMappingURL=typeof.js.map

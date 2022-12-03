@@ -58,4 +58,3 @@ const objt = {
     alt: 1.80,
 };
 constructorODS(objt);
-//# sourceMappingURL=objetos.js.map

@@ -84,4 +84,3 @@ function handleproductt(date) {
                 `;
     }
 }
-//# sourceMappingURL=typeguardian.js.map

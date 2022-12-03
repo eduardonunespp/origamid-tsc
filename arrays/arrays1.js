@@ -10,4 +10,3 @@ function filtrarValores(data) {
 }
 console.log(maiorQue10(numeros));
 console.log(filtrarValores(valores));
-//# sourceMappingURL=arrays1.js.map

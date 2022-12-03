@@ -48,4 +48,3 @@ interface Window {
 }
 
 window.userId = 200
-window.$

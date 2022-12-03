@@ -2,7 +2,7 @@ console.log(document.constructor)
 
 
 
-class newProduct {
+class nnewProduct {
     readonly tipo = 'produto'
     nome: string;
     protected preco: number | undefined
@@ -11,7 +11,7 @@ class newProduct {
         this.preco = preco
     }
     getPreco(){
-        return newProduct.transformaPreco(this.preco!)
+        return nnewProduct.transformaPreco(this.preco!)
     }
 
     static transformaPreco(preco: number){
@@ -19,7 +19,7 @@ class newProduct {
     }
 }
 
-const nlivro = new newProduct('Hobbit', 250)
+const nlivro = new nnewProduct('Hobbit', 250)
 
 console.log(nlivro)
 

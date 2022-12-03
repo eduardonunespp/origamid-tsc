@@ -20,7 +20,7 @@ function isUserData(obj: unknown): obj is UserData{
     }
 }
 
-function validJSON(str: string){
+function vvalidJSON(str: string){
     try{
         JSON.parse(str);
     } catch (e) {
@@ -30,7 +30,7 @@ function validJSON(str: string){
 
 function loadLocalStorage(){
     const localUserData = localStorage.getItem("UserData")
-    if(localUserData && validJSON(localUserData)){
+    if(localUserData && vvalidJSON(localUserData)){
         const UserData = JSON.parse(localUserData)
         if(isUserData(UserData)){
             Object.entries(UserData).forEach(([key, value]) => {

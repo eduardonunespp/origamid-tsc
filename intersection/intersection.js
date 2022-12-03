@@ -9,5 +9,3 @@ function nsinsu(dados) {
     dados.bancos;
 }
 window.userId = 200;
-window.$;
-//# sourceMappingURL=intersection.js.map

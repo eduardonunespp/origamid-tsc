@@ -1,6 +1,6 @@
 "use strict";
 console.log(document.constructor);
-class newProduct {
+class nnewProduct {
     tipo = 'produto';
     nome;
     preco;
@@ -9,13 +9,13 @@ class newProduct {
         this.preco = preco;
     }
     getPreco() {
-        return newProduct.transformaPreco(this.preco);
+        return nnewProduct.transformaPreco(this.preco);
     }
     static transformaPreco(preco) {
         return `R$ ${preco}`;
     }
 }
-const nlivro = new newProduct('Hobbit', 250);
+const nlivro = new nnewProduct('Hobbit', 250);
 console.log(nlivro);
 //console.log(nlivro.tipo = 'teste')
 console.log(nlivro.getPreco());
@@ -66,4 +66,3 @@ formas.forEach(forma => {
         console.log(forma.getPerimetroCirculo);
     }
 });
-//# sourceMappingURL=classes.js.map

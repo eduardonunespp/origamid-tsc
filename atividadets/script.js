@@ -8,7 +8,7 @@ function isUserData(obj) {
         return false;
     }
 }
-function validJSON(str) {
+function vvalidJSON(str) {
     try {
         JSON.parse(str);
     }
@@ -18,7 +18,7 @@ function validJSON(str) {
 }
 function loadLocalStorage() {
     const localUserData = localStorage.getItem("UserData");
-    if (localUserData && validJSON(localUserData)) {
+    if (localUserData && vvalidJSON(localUserData)) {
         const UserData = JSON.parse(localUserData);
         if (isUserData(UserData)) {
             Object.entries(UserData).forEach(([key, value]) => {
@@ -40,4 +40,3 @@ function handleInput({ target }) {
     }
 }
 form?.addEventListener('keyup', handleInput);
-//# sourceMappingURL=script.js.map

@@ -4,4 +4,3 @@ console.log(video);
 if (video instanceof HTMLVideoElement) {
     console.log(video.volume);
 }
-//# sourceMappingURL=interfacesDoDOM.js.map

@@ -27,4 +27,3 @@ async function handleDataaa() {
 handleDataaa();
 let testei;
 testei = 'age';
-//# sourceMappingURL=keyof2.js.map

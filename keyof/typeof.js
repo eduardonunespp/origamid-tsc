@@ -23,4 +23,3 @@ const ref = document.querySelector('a');
 if (ref instanceof HTMLAnchorElement) {
     ref.href;
 }
-//# sourceMappingURL=typeof.js.map
