@@ -1,6 +1,10 @@
 
 <div style="display: inline_block">
- <img align="center" alt="Edu-Ts" height="50" width="50" src="4B8r3B4p7yhRXuBWLqsQ546WR43cqQwrbXMDFnBi6vSJBeif8tPW85a7r7DM961Jvk4hdryZoByEp8GC8HzsqJpRN4FxGM9plain.svg" />
+ 
+  <img align="center" alt="Edu-Ts" height="30" width="40"  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg" />
+
+ 
+
  </div>
 
 Estudo de TypeScript
