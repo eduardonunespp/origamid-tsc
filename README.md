@@ -4,10 +4,11 @@
 <img align="center" alt="Edu-Ts" height="80" width="80"  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg" /> <br>
  
  <hr>
+ 
+ <h1>Repositório de Estudos de TypeScript</h1>
 
  
-
- </div>
+</div>
 
 Estudo de TypeScript
 TypeScript
