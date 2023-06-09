@@ -1,7 +1,7 @@
 
 <div style="display: inline_block">
  
-<img align="center" alt="Edu-Ts" height="90" width="90"  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg" /> <br>
+<img align="center" alt="Edu-Ts" height="100" width="100"  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg" /> <br>
  
  <hr>
  
